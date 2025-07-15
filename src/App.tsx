@@ -20,6 +20,7 @@ function App(){
   };
 
   return(
+    
     <div>
       <h1>Mis Tareas</h1>
       <input value={newTodo} onChange={(e) => setNewTodo(e.target.value)} placeholder="Escribe una tarea" />
